@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+
+  <body>
+    <!-- col-column
+    span - to extend -->
+
+    <!-- rowspan -->
+
+    <!-- colspan & rowspan are only applied on th or td. Not on tr -->
+
+    <!-- <table border="2">
+      <tr>
+        <th>name</th>
+        <th colspan="2">phone</th>
+        <th>email</th>
+      </tr>
+      <tr>
+        <td>kishan</td>
+        <td colspan="2">1234567890</td>
+        <td>kishan@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Ketan</td>
+        <td>1234567890</td>
+        <td>0987654321</td>
+        <td>ketan@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Rohit</td>
+        <td colspan="2">1234567890</td>
+        <td>rohit@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Riya</td>
+        <td colspan="2">1234567890</td>
+        <td>riya@gmail.com</td>
+      </tr>
+    </table> -->
+
+    <!-- input, select, radio, checkbox, textarea -->
+
+    <!--ASSIGNMENT: autofocus, autocomplete, required, novalidate -->
+
+    <form>
+      <label>Name</label
+      ><input
+        type="text"
+        placeholder="Enter your full name"
+        maxlength="20"
+        autofocus
+        required
+        autocomplete="on"
+        name="name"
+      /><br />
+      <label>Password</label><input type="password" name="password" autocomplete="on" /><br />
+      <label>Email</label><input type="email" autocomplete="on"/><br />
+      <input type="number" min="1" max="50" step="2" /><br />
+      
+      <input type="radio" name="gender" />Male
+      <input type="radio" name="gender" />Female
+      <input type="radio" name="gender" />Other <br />
+
+      <label>Range</label>
+      <input type="range" min="500" max="5000" step="500" /> <br />
+      <label>DOB</label>
+      <input type="date" /><br />
+
+      <label>Time</label>
+      <input type="time" /> <br />
+
+      <label>Color</label>
+      <input type="color" /><br />
+
+      <input type="checkbox" name="hobby" />Sleeping
+      <input type="checkbox" name="hobby" />Eating
+      <input type="checkbox" name="hobby" />Singing
+      <input type="checkbox" name="hobby" />Playing
+      <input type="checkbox" name="hobby" />Dancing <br />
+
+      <select>
+        <option disabled selected>Course You Opted For</option>
+        <option>Python</option>
+        <option>Java</option>
+        <option>Android</option>
+        <option>React</option>
+        <option>Node</option>
+        <option>Javascript</option></select
+      ><br />
+
+      <input list="course" type="text" placeholder="Enter your course" />
+      <datalist id="course">
+        <option>Python</option>
+        <option>Java</option>
+        <option>Android</option>
+        <option>React</option>
+        <option>Node</option>
+        <option>Javascript</option>
+      </datalist>
+      <br />
+      <textarea cols="15" rows="5"></textarea><br />
+      <input type="file" multiple accept="jpg,png,gif,svg,bmp" /> <br />
+      <input type="submit" value="Register" />
+    </form>
+
+    <!-- Inside form, this button is useless -->
+    <!-- <input type="button" value="Register"> -->
+
+    <!-- div, span, a, img, -->
+
+    <!-- b, i, sup, sub, del, code -->
+
+    <!-- Semantic Elements -->
+
+    <!-- CSS -->
+  </body>
+</html>

@@ -1,0 +1,34 @@
+p{
+    color: red;
+}
+
+#green{
+    color: green;
+}
+
+.green{
+    color: green;
+}
+.yellow{
+    color: yellow
+}
+.pink{
+    color: pink;
+}
+.red{
+    color: red
+}
+.blue{
+    color: blue
+}
+
+#small{
+    font-size: 0.5rem;
+}
+
+.big{
+    font-size: 1.3rem;
+}
+.border{
+    border: 2px solid;
+}

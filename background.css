@@ -1,0 +1,104 @@
+/* ASSIGNMENT */
+
+/* background-color
+background-image
+background-repeat: repeat | no-repeat | repeat-x | repeat-y
+background-attachment: scroll | fixed
+background-position
+background-size (CSS 3): px | % | rem | em | cover | contain
+*/
+
+
+
+/* ul{
+    background-color: red;
+}
+p{
+    background-color: blue;
+} */
+
+/* #back{
+    background-color: blue;
+}
+
+.backg{
+    background-color: blue;
+} */
+
+
+/* Way to apply color / background-color / border-color:
+ - name
+ - hexadecimal: 
+    - Starts with a #
+    - Allowed characters: 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+    - Either 3 or 6 characters after #
+
+    Red: #ff0000 = #f00
+    Green: #00ff00 = #0f0
+    Blue:#0000ff = #00f
+
+    Black: #000000 = #000
+    White: #ffffff = #fff
+
+
+
+ - RGB:
+    - Starts with rgb()
+    - Allowed characters: 0,1,2,3,4,5,6,7,8,9,.....,255
+
+
+    Red: rgb(255,0,0)
+    Green: rgb(0,255,0)
+    Blue: rgb(0,0,255)
+
+    Black: rgb(0,0,0)
+    White: rgb(255,255,255)
+
+ - RGBA: Alpha (opacity): ranges from 0 to 1
+ 
+ */
+
+
+
+body{
+    /* background-color: rgba(255,255,255,1);
+    background-image: url(images/highrise.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;  */
+    
+
+    /* background: rgba(255,255,255,1) url(images/highrise.webp) no-repeat fixed center / cover; */
+
+}
+
+
+/* Absolute Units: px
+Relative Units: em, rem, vh, vw, % */
+
+/* 16px = 1em = 1rem = 100% */
+
+
+ /* list-style-type: lower-greek;
+    list-style-image: url(images/marker.png);
+    list-style-position: outside; */
+/* ul{
+   
+
+    list-style: inside url(images/marker.png) lower-greek;
+
+    font-size: 350%;
+
+} */
+
+section{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 2em;
+}
+
+
+
+/* ASSIGNMENT: contain | cover - difference, vh, vw */
