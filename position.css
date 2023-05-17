@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Position is used to put elements at places of our choosing in the web page. */
+/* position: static | fixed | absolute | relative | sticky */
+
+
+/* position: fixed - element is fixed on the page. 
+    Counting starts from body origin.Element is taken out of the flow.
+*/
+
+
+/* position: relative - element is not fixed on the page.
+    Counting starts from element's original position
+*/
+
+
+/* position: absolute - element is not fixed on the page. Element is taken out of the flow. 
+    Counting starts from :
+        - body origin, if no previous element is positioned
+        - if a previous element is positioned, from that element
+*/
+
+
+/* With position, we have 4 new properties: top, bottom, left, right */
+
+
+
+
+.heading{
+    border: 2px solid;
+    background-color: green;
+    color: #fff;
+    position: fixed;
+}
+
+
+.product{
+    border: 2px solid;
+    padding: 2rem;
+    width: 400px;
+    background-color: antiquewhite;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.product span{
+    padding: 0.25rem;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+

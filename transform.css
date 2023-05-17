@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+2D TRANSFORM
+translate: to move element
+scale: to enlarge / compress element
+rotate: to rotate element on its axis
+skew: to rotate and translate element 
+
+
+
+3D TRANSFORM
+translateY: to move element
+scaleY: to enlarge / compress element
+rotateY: to rotate element on its axis
+skewY: to rotate and translate element 
+
+
+*/
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: #f00;
+    /* transform: translate(4rem, 8rem); */ /*First value is horizontal, second is for vertical*/
+    /*transform: translate(4rem); */ /*Single value denotes only horizontal movement*/
+
+    /* transform: translateY(4rem); */
+
+
+    /* transform: scale(0.5, 0.5); */
+
+    /* transform: scaleY(4); */
+
+
+
+
+    /* transform: rotate(20deg); */
+
+
+    transform: skew(20deg);
+
+
+
+
+
+
+}

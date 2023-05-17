@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    position: relative;
+    width: 300px;
+    width: 400px;
+    margin: 6rem 4rem;
+}
+.bottle, .cap{
+    position: absolute;
+    background-color: aqua;
+}
+.bottle{
+    width: 120px;
+    height: 180px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.cap {
+    width: 50px;
+    height: 60px;
+    top: -70px;
+    left: 34px;
+}
+

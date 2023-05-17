@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.triangle {
+  width: 0;
+  border-bottom: 100px solid black;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: absolute;
+}
+.tr2 {
+  border-bottom-color: rgb(94, 94, 12);
+  top: 40px;
+}
+.tr3 {
+  border-bottom-color: rgb(141, 30, 48);
+  top: 80px;
+}

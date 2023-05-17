@@ -1,0 +1,6 @@
+.Tra{
+    border-right: 100px solid red;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    width: 0;
+}

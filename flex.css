@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    border: solid;
+}
+/* a{
+    display: block;
+} */
+
+
+/* Float: horizontally */
+/* FLEX: is used for alignment. To align multiple elements horizontally and / or vertically */
+
+/* display: inline | block | flex | inline-block | none */
+
+
+/* 
+justity-content: handles horizontal alignment
+flex-start | flex-end | center | space-between | space-around | space-evenly
+align-items: handles vertical alignment
+stretch | flex-start | flex-end | center
+flex-direction: tells whether child elements will be vertical or horizontal
+row | column | row-reverse | column-reverse
+ */
+
+
+
+#wrapper{
+    display: flex;
+    background-color: rgb(112, 112, 176);
+    height: 700px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    background-color: beige;
+    width: 200px;
+}

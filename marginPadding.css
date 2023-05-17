@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* border-style: solid | dotted | dashed | inset | outset | groove | ridge */
+.box{
+    border: solid;
+    /* border-top: 3px solid;
+    border-left: 4px dotted;
+    border-right: 3px dashed;
+    border-bottom: 5px outset; */
+
+
+    /* border-radius: 15px; */
+    /* border-bottom-right-radius: 10px; */
+}
+
+/* .ball{
+    width: 150px;
+    height: 350px;
+    background-color: #f00;
+    border-radius: 50%;
+} */
+
+
+
+/* MARGIN: distance between 2 element. Distance between border of 2 elements */
+/* PADDING: distance between element's border and its content */
+
+
+#b3{
+    background-color: #4c4907;
+    border: 5px solid blue;
+    color: #fff;
+    /* margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 60px; */
+
+    /* margin: 30px 40px 40px 60px; top right bottom left */
+
+    /* margin: 40px 30px 50px; top left+right bottom */
+
+    /* margin: 20px 45px; top+bottom left+right */
+
+    /* margin: 50px; top+bottom+left+right */
+
+    /* padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px; */
+
+    padding: 5px 6px 4px;
+}
+
+
+
+/* .autoMargin{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-right: 10px;
+    border: solid;
+} */

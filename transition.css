@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Transition: smooth change of any CSS property */
+
+/* transition-property
+transition-duration
+transition-delay
+transition-timing-function */
+
+/* :hover is necessary for transition */
+
+/* ease | ease-in | ease-out | ease-in-out | linear */
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: #f00;
+    margin: 3rem;
+    /* transition-property: width, height, background-color, border-radius, transform;
+    transition-duration: 10s;
+    transition-delay: 1s;
+    transition-timing-function: ease; */
+
+    transition: all 10s 1s ease;
+}
+
+.box:hover{
+    width: 300px;
+    height: 300px;
+    background-color: #0f0;
+    border-radius: 50%;
+    transform: rotate(180deg);
+}

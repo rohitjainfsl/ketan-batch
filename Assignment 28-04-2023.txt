@@ -1,0 +1,13 @@
+ASSIGNMENT:
+Pseudo Classes: hover, first-of-type, last-of-type, first-child, last-child, nth-of-type, nth-child, has, is, not
+
+Pseudo Elements: ::before, ::after, ::placeholder, ::first-line, ::first-letter
+
+Combinators:
+Space ( ), >, +, ~
+
+Difference between opacity & visibility.
+
+Difference between display: block & display: inline-block
+
+line-height, letter-spacing, word-spacing

@@ -1,0 +1,104 @@
+/* Box model states the area occupied by any element on the screen is = width + padding + border + margin */
+
+/* By applying box-sizing: border-box, we alter that definition, i.e. area occupied by any element on the screen is = (width + padding + border) + margin */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /*FALLBACK*/
+}
+
+/* .box{
+    padding: 10px;
+    border: 3px solid;
+    width: 200px;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #faa361;
+  height: 60px;
+  padding-left: 3rem;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+header ul {
+  display: flex;
+}
+header a{
+  color: #fff;
+  padding: 1.3rem 1rem;
+  border-left: 2px solid #fff;
+}
+header h1{
+  text-transform: uppercase;
+}
+header h1 span{
+  color: #fff;
+}
+
+
+#image{
+  background-image: url(images/highrise.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 300px;
+}
+
+#content{
+  background-color: #faa361;
+}
+
+#threeBoxes{
+  display: flex;
+  
+}
+
+
+
+
+.box{
+  background-color: #fff;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+
+#twoBoxes{
+  display: flex;
+  padding-top: 2rem;
+}
+
+.left{
+  width: 13%;
+  margin: 0 1rem;
+}
+.right {
+  width: 85%;
+  margin: 1rem 0;
+  border-left: 3px solid #fff;
+  padding-left: 1rem;
+}
+
+.left a{
+  color: #000;
+  background-color: #fff;
+  padding: 0.5rem 0.25rem;
+  margin: 0.5rem 0;
+  display: block;
+  text-align: center;
+}
+
+.right p{
+  margin: 0.5rem 0;
+}
